@@ -1,0 +1,49 @@
+:root {
+    --main-border: 2px solid red;
+    --main-padding: 5px;
+    --main-color: blue;
+    --main-font-size: 24px;
+    --main-bg-color: wheat;
+    --main-text-color: black;
+    --main-card-bg: white;
+    --main-bg-color2: lime;
+    --main-text-color: black;
+}
+body {
+    background-color: var(--main-bg-color);
+}
+.box {
+    width: 200px;
+    height: 200px;
+    border: var(--main-border, 54px solid red);
+    padding: var(--main-padding);
+    background-color: var(--main-bg-color1);
+    color: var(--main-text-color);
+    
+
+}
+.box1 {
+    width: 500px;
+    height: 500px;
+    border: var(--main-border);
+    padding: var(--main-padding);
+    color: var(--main-text-color);
+}
+.p1 {
+    font-size: var(--main-font-size);
+    color: var(--main-text-color);
+}
+
+#theme-switch:checked ~ .box1 {
+    width: 500px;
+    height: 500px;
+    --main-padding: 10px;
+    --main-border: 2px solid #b700ff;
+    --main-text-color: rgb(255, 0, 0);
+}
+label {
+    font-size:  42px;
+}
+#theme-switch {
+    display: none;
+}

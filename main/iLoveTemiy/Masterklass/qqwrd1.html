@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styled.css">
+</head>
+<body>
+    <header>
+        <h1>Вкусные рецепты</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Рецепты</a></li>
+                <li><a href="#">Мастер класс</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Запишитесь на мастел класс</h2>
+        <p>Выберите блюдо и дату, чтобы научиться готовить с нами</p>
+        <form>
+            <fieldset>
+                <legend>Оставьте ваши данные</legend>
+                <div class="input-name">
+                <label for="name">Ваше имя*</label>
+                <input placeholder="Иван Иванович Иванов" type="text" name="" id="name" required minlength="3" maxlength="15" autofocus>
+                </div>
+                <div>
+                    <label for="mail">Ваш email*</label>
+                    <input placeholder="example@example.com" type="email" name="" id="mail" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Выберите блюдо</legend>
+                <div>
+                    <label for="meal1">Паста</label>
+                    <input type="radio" id="meal1" name="meal" value="Pasta" checked>
+                </div>
+                <div>
+                    <label for="meal2">Пицца</label>
+                    <input type="radio" id="meal2" name="meal" value="Pizza">
+                </div>
+                <div>
+                    <label for="meal3">Стейк</label>
+                    <input type="radio" id="meal3" name="meal" value="Steak">
+                </div>
+            </fieldset>
+            <label>Выбрать дату мастер класса <input type="date" min="2025-10-26" max="2025-11-26"></label>
+            <label for="comment">Оставьте дополнительный комментарий</label>
+            <textarea name="comment" id="comment" rows="4" cols="20"></textarea>
+            <button type="submit">Отправить данные</button>
+        </form>
+    </main>
+    <footer>
+        2025. Вкусно и точка.
+    </footer>
+</body>
+</html>

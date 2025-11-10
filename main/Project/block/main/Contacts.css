@@ -1,0 +1,127 @@
+.contacts{
+    width: 100%;
+    height: 800px;
+    padding-top: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-family: "Inter-Regular";
+    background-color: var(--primary-color);
+}
+
+.Text11{
+    opacity: .3;
+    color: var(--text-color);
+}
+
+.Text12{
+    margin-top: 40px;
+    font-family: "Inter-Bold";
+    font-size: 40px;
+    color: var(--text-color);
+}
+
+.Text13{
+    margin-top: 20px;
+    width: 500px;
+    color: var(--text-color);
+}
+
+.Goyda{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    gap: 100px;
+    margin-top: 60px;
+}
+
+.Left{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    width: 400px;
+    height: 298px;
+    padding-left: 40px;
+    padding-top: 40px;
+    gap: 30px;
+}
+
+.Input11{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 0;
+    width: 700px;
+    height: 338px;
+}
+
+.form-label::after{
+    content: "*";
+    margin-left: 5px;
+    color: rgb(255, 0, 85)
+}
+
+.f-flex{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: var(--text-color);
+}
+
+.form-label{
+    width: 335px;
+    font-family: "Inter-Bold";
+}
+
+.name, .email{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border: 0;
+}
+.form-input{
+    border-bottom: 1px solid rgb(0, 0, 0, .25);
+    background-color: inherit;
+}
+textarea{
+    width: 700px;
+    height: 70px;
+    padding: 0;
+    background-color: inherit;
+}
+.textarea{
+    display: flex;
+    flex-direction: column;
+}
+
+.button2{
+    border: 0;
+    background-color:var( --button-color);
+    color: white;
+    border-radius: 8%;
+    width: 130px;
+    height: 52px;
+}
+
+.Bttn{
+    display: flex;
+    gap: 70px;
+    position: relative;
+    margin-top: 70px;
+}
+
+.Hitry {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+.textarea h3 {
+    color: var(--text-color);
+}
+.clicking{
+    color: var(--text-color);
+}

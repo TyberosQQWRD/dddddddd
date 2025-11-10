@@ -1,0 +1,9 @@
+.catalog__card{
+    background-color: var(--card-color);
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    padding: var(--padding-base);
+    /* width: min(100%, 300px); */
+    flex: 1 1 250px;
+    /* max-width: 445px; */
+}

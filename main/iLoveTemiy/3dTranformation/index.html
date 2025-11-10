@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">HAMSTER</div>
+        <div class="card_hamster"></div>
+        <input type="range" min="0" max="360" value="0">
+        <!-- <input type="range" min="0.5" max="5" value="1"> -->
+    </div>
+    <script>
+        const cardElement1 = document.querySelector(".card");
+        const cardElement2 = document.querySelector(".card_hamster");
+        const rangeInput1 = document.querySelector("input[type='range']");
+        const rangeInput2 = document.querySelector("input[type='range']");
+        rangeInput1.addEventListener("input", (evt) => {
+            const value = evt.target.value;
+            cardElement1.style.transform = `rotateY(${value}deg)`
+        });
+        rangeInput2.addEventListener("input", (evt) => {
+            const value = evt.target.value;
+            cardElement2.style.transform = `rotateY(${value}deg)`
+        })
+        // rangeInput1.addEventListener("input", (evt) => {
+        //     const value = evt.target.value;
+        //     cardElement1.style.animation-duration = `(${value}s)`
+        // });
+        // rangeInput2.addEventListener("input", (evt) => {
+        //     const value = evt.target.value;
+        //     cardElement2.style.animation-duration = `(${value}s)`
+        // })
+    </script>
+</body>
+</html>

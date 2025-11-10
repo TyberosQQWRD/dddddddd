@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    perspective: 300px;
+}
+@keyframes loading{
+    0%{
+        rotate: 51deg;
+        background-color: red;}
+    14.2%{
+        rotate: 102deg;
+        background-color: rgb(255, 166, 0);}
+    28.4%{
+        rotate: 153deg;
+        background-color: rgb(251, 255, 0);}
+    42.6%{
+        rotate: 204deg;
+        background-color: rgb(0, 255, 55);}
+    56.9%{
+        rotate: 255deg;
+        background-color: rgb(0, 225, 255);}
+
+    73%{
+        rotate: 306deg;
+        background-color: rgb(17, 0, 255);}
+    100% {
+        rotate: 360deg;
+        background-color: rgb(255, 0, 191);}
+    }
+
+.card {
+    position: absolute;
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    /* z-index: -1; */
+    /* position: relative; */
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    opacity: .9;
+    background-image: url(https://media.istockphoto.com/id/675804830/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B1%D0%B5%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9-%D1%85%D0%BE%D0%BC%D1%8F%D0%BA.jpg?s=612x612&w=0&k=20&c=ISq4ltdSgtuh7fbz2peJGZtFS77p0CsngPE-778HdSg=);
+    font-size: 20px;
+    /* background-color: rebeccapurple; */
+    padding: 2rem;
+    border-radius: 50%;
+    transform: rotateY(0deg);
+    /* transform-origin: left top; */
+    animation-name:loading ;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(.49,.61,0,.83);
+    animation-iteration-count: infinite;
+}
+.card_hamster{
+    /* background-image: url(https://media.istockphoto.com/id/675804830/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B1%D0%B5%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9-%D1%85%D0%BE%D0%BC%D1%8F%D0%BA.jpg?s=612x612&w=0&k=20&c=ISq4ltdSgtuh7fbz2peJGZtFS77p0CsngPE-778HdSg=); */
+    position: static;
+    background-size: contain;
+    background-position: center;
+    inset: 0;
+    z-index: -1;
+    width: 305px;
+    height: 260px;
+    margin-top: 250px;
+    animation-name:loading ;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(.49,.61,0,.83);
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+    text-align: center;
+    border: 10px solid rgb(0, 0, 0);
+    transform: rotateY(0deg);
+    border-radius: 50%;
+}
+    /* position: relative; */
+
+    /* background-image: url("https://avatanplus.com/files/resources/mid/599193c58551615de0a93baa.png");
+    width: 250px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+} */
+
+input {
+    position: relative;
+    background-size: contain;
+    margin-top:200px;
+    z-index: 1;
+}

@@ -1,0 +1,49 @@
+:root {
+    --main-border: 2px solid red;
+    --main-padding: 5px;
+    --main-color: blue;
+    --main-font-size: 24px;
+    --main-button-color: rgb(0, 0, 0);
+    --main-button-width: 100px;
+    --main-button-height: 40px;
+    --main-button-margin: 50px;
+    --main-bg-color: wheat;
+    --main-text-color: black;
+    --main-card-bg: white;
+    --main-bg-color2: lime;
+}
+body {
+    background-color: var(--main-bg-color);
+}
+.box {
+    width: 200px;
+    height: 200px;
+    border: var(--main-border, 54px solid red);
+    padding: var(--main-padding);
+    background-color: var(--main-bg-color1);
+    color: var(--main-text-color);
+    
+
+}
+.box1 {
+    width: 500px;
+    height: 500px;
+    border: var(--main-border);
+    padding: var(--main-padding);
+    color: var(--main-text-color);
+}
+.p1 {
+    font-size: var(--main-font-size);
+    color: var(--main-text-color);
+}
+.theme {
+    color: var(--main-button-color);
+    width: var(--main-button-width);
+    height: var(--main-button-height);
+    margin: var(--main-button-margin);
+}
+[data-theme="Dark"] {
+    --main-bg-color: #302d2d;
+    --main-text-color: #fff;
+    --main-card-bg: black;
+}

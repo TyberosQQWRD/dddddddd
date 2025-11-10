@@ -1,0 +1,83 @@
+body {
+    background-color: rgba(255, 228, 196, 0.705);
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(68, 12, 2);
+}
+header {
+    background: linear-gradient(135deg, rgb(24, 3, 141),rgb(5, 177, 177));
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    padding-left: 15px;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(162, 90, 230);
+    text-decoration: underline;
+}
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10                   px;
+    margin-bottom: 60px;
+}
+fieldset {
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+}
+legend {
+    padding: 3px;
+    font-weight: bold;
+}
+div {
+    padding: 2px;
+}
+label {
+    display: block;
+    padding: 10px;
+}
+input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 4px;
+    border: none;
+}
+button {
+    margin-top: 10px;
+}
+.input-name {
+    margin-bottom: 15px;
+}
+textarea:focus {
+    outline: 2px solid red;
+    border: none;
+}
+button {
+    background-color: rgb(83, 209, 209);
+    border: none;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 10px;
+    font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+}

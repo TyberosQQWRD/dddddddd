@@ -1,0 +1,48 @@
+.container {
+    border: 2px solid red;
+    height: 2000px;
+    margin-top: 200px;
+    /* position: relative; */
+}
+
+.box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 1rem;
+    background-color: aquamarine;
+}
+
+.relative {
+    position: relative;
+    background-color: blanchedalmond;
+    top: 30px;
+    left: 30px;
+    /* относительно положения в родительском элементе которое должен был занимать(походу) */
+}
+
+.absolute {
+    position: absolute;
+    background-color: blue;
+    color: white;
+    top: 300px;
+    left: 100px;
+    /* относительно ближайшего относительного родителя (походу) */
+    /* если у родительского элемента не задан "position:relative" то элемент отступает от экрана, а с ним от родительского элемента */
+}
+
+.fixed {
+    position: fixed;
+    background-color: azure;
+    border: 3px solid rgb(255, 0, 0);
+    /* закрепляет свое положение относительно браузера(походу) */
+}
+
+.sticky {
+    position: sticky;
+    background-color: rgb(16, 221, 94);
+    top: 50px;
+    left: 20px;
+    border: 3px solid blue;
+    /* помесь фикса и релатива(походу) */
+}

@@ -1,0 +1,21 @@
+@import url(../fonts/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/vendor.css);
+@import url(../block/header/header.css);
+@import url(../block/main/main.css);
+@import url(../block/main/About.css);
+@import url(../block/main/Skills.css);
+@import url(../block/main/Portfolio.css);
+@import url(../block/main/EXPERIENCE.CSS);
+@import url(../block/main/Contacts.css);
+@import url(../block/footer/footer.css);
+
+[data-theme="Dark"] {
+    --primary-color: #303030;
+    --secondary-color: #252525;
+    --text-color: white;
+    --checkout: #1664EA;
+    --blabla: #303030;
+    --pb: #1664EA;
+    --top-color: #1664EA;
+}

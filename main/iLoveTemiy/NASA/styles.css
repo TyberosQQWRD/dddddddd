@@ -1,0 +1,48 @@
+#Papa {
+
+    background-image: url(qqwrd.png);
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 350px;
+    height:450px;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto-Medium.ttf);
+}
+
+#Text1 {
+    padding-top: 50px;
+    padding-left: 35px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3px;
+    filter: opacity(50%);
+    font-family: Roboto;
+
+}
+
+#Text2 {
+    padding-left: 35px;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 80px;
+    font-family: Roboto;
+}
+button {
+    background-color: #A4F422;
+    height: 40px;
+    border-radius: 5px;
+    border-color: transparent;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 35px;
+    font-family: Roboto;
+    /* margin-bottom:100px; */
+}
+button:hover {
+    background-color: white;
+    color: blue;
+    font-family: Roboto;
+}

@@ -1,0 +1,82 @@
+/* .about {
+    font-family: "Inter-Regular";
+    opacity: 25%;
+    margin-left: var(--margin);
+}
+
+.Image1 {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text1 {
+    font-family: "Inter-Bold";
+    font-size: 40px;
+    width: 500px;
+}
+
+.text2 {
+    font-family: "Inter-Regular";
+    font-size: 16px;;
+    width: 500px;
+}
+
+.colortext {
+    color: var(--button-color);
+}
+
+div div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(122 122 122 / 0.2);
+}
+.ZOV {
+    width: 500px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Socialss {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.Image11 {
+    position: absolute;
+}
+
+.Image22 {
+    position: relative;
+}
+
+.scroll_down {
+    opacity: 25%;
+    color: #1B1B1B;
+    font-family: "Inter-Regular";
+}
+
+.Stick {
+    opacity: 25%;
+    background-color: #1b1b1b;
+    width: 250px;
+    height: 1px;
+}
+
+.Scroll {
+    height: 22px;
+    width: 382px;
+    rotate: -90deg;
+} */

@@ -1,0 +1,124 @@
+.Skills {
+    height: 637px;
+    background-color: var(--secondary-color);
+}
+.SkillFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.FlexP1 {
+    font-family: "Inter-Regular";
+    font-size: 14px;
+    opacity: 25%;
+    margin-top: 80px;
+    margin-bottom: 0;
+    color: var(--text-color);
+}
+
+.FlexP2 {
+    font-family: "Inter-Regular";
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: var(--text-color);
+}
+
+.SkillFlex h1 {
+    font-family: "Inter-Bold";
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    color: var(--text-color);
+}
+
+.Govno {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.CheMogu {
+    align-items: center;
+    font-family: "Inter-Regular";
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    width: 310px;
+}
+
+.CheMogu li {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: max-content;
+    background-color: var(--blabla);
+    color: white;
+}
+
+.ProgressIn p {
+    font-family: "Inter-Regular";
+    margin-top: 20px;
+    margin-bottom: 2px;
+    color: var(--text-color);
+}
+
+.ProgressIn h2 {
+    margin-top: 0px;
+    font-family: "Inter-Bold";
+    color: var(--text-color);
+}
+
+.progress-bar {
+    position: relative;
+    width: 400px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.progress {
+    position: relative;
+    height: 100%;
+    background-color: var(--pb);
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+.progress-bar1 {
+    position: relative;
+    width: 400px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.progress1 {
+    position: relative;
+    height: 100%;
+    background-color: var(--pb);
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+.progress-bar2 {
+    position: relative;
+    width: 400px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.progress2 {
+    position: relative;
+    height: 100%;
+    background-color: var(--pb);
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}

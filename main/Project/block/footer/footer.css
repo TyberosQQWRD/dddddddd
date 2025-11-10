@@ -1,0 +1,80 @@
+.palka1, .palka2, .palka3 {
+    width: 1px;
+    height: 24px;
+    background-color: var(--grey);
+}
+
+.sec6 {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.art6 {
+    text-align: center;
+}
+
+.foot {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.ul2 {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+}
+
+.ul2 li a {
+    background-color: #252525;
+    border: 0;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100px;
+}
+
+nav a:hover {
+    color: var(--third-color);
+    font-weight: 500;
+}
+
+.FooterH {
+    margin-top: 80px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--primary-color1);
+}
+
+.FooterText {
+    margin-top: 20px;
+    white-space: pre;
+    font-size: 10px;
+    line-height: 140%;
+    color: var(--primary-color1);
+}
+
+.buttonTop {
+    width: 95px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 105%;
+    color: var(--top-color);
+    border: 0;
+    background-color: #252525;
+}
+
+.bat {
+    margin-top: 60px;
+    border: 0;
+    background: none;
+}
+
+footer{
+    font-family: "Inter-Regular";
+    background-color: var(--third-color);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}

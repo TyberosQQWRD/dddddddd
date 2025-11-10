@@ -1,0 +1,157 @@
+.portfolio {
+    width: 100%;
+    height: 1400px;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+.WOW {
+    font-family: "Inter-Regular";
+    color: var(--third-color);
+    opacity: .25;
+    position: relative;
+    top: 100px;
+    left: 120px;
+    color: var(--text-color);
+}
+
+.WOW1 {
+    font-family: "Inter-Bold";
+    color: var(--text-color);
+    position: relative;
+    margin-top: 40px;
+    top: 100px;
+    left: 120px;
+}
+
+.WOW2 {
+    font-family: "Inter-Regular";
+    color: var(--text-color);
+    position: relative;
+    margin-top: 20px;
+    top: 100px;
+    left: 120px;
+}
+.GRID {
+    height: 1022px;
+    width: 80vw;
+    align-items: center;
+    z-index: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 10px;
+    position: relative;
+    left: 120px;
+    top: 100px;
+    margin-top: 60px;
+    padding: 0;
+}
+
+.Item1,.Item6{
+    box-sizing: content-box;
+    height: 100%;
+    width: 100%;
+    grid-column: span 2;
+    grid-row: span 3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    border-radius: 10px;
+}
+
+.Item2,.Item3,.Item4,.Item5{
+    box-sizing: content-box;
+    height: 100%;
+    width: 100%;
+    grid-column: span 1;
+    grid-row: span 4;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    border-radius: 10px;
+}
+
+ .Item1{
+    background-image: url(../pictures/png/image45.jpg);
+    position: relative;
+ }
+.Item2{
+    background-image: url(../pictures/png/image\ 46.png);
+    position: relative;
+}
+.Item3{
+    background-image: url(../pictures/png/image\ 43.png);
+        position: relative;    
+}
+.Item4{
+    background-image: url(../pictures/png/image\ 41.png);
+    position: relative;    
+}
+.Item5{
+    background-image: url(../pictures/png/image\ 44.png);
+    position: relative;    
+}
+.Item6{
+    background-image: url(../pictures/png/image\ 47.png);
+    position: relative;
+}
+
+.Item1 pre,.Item2 pre,.Item3 pre,.Item4 pre,.Item5 pre,.Item6 pre {
+    font-family: "Inter-Regular";
+    position: relative;
+    top: 40px;
+    left: 40px;
+    color: white;
+    z-index: 2;
+}
+
+.Item1 p,.Item2 p,.Item3 p,.Item4 p,.Item5 p,.Item6 p {
+    font-family: "Inter-Regular";
+    position: relative;
+    top: 40px;
+    left: 40px;
+    color: white;
+    z-index: 2;
+    opacity: 0.45;
+}
+
+.Item1 button,.Item6 button {
+    position: relative;
+    z-index: 2;
+    height: 52px;
+    width: 130px;
+    border: 0;
+    border-radius: 5px;
+    left: 40px;
+    top: 158px;
+    font-family: "Inter-Regular";
+}
+
+.Item2 button,.Item3 button,.Item4 button,.Item5 button{
+    position: relative;
+    z-index: 2;
+    height: 52px;
+    width: 130px;
+    border: 0;
+    border-radius: 5px;
+    left: 40px;
+    top: 260px;
+    font-family: "Inter-Regular";
+}
+
+.Item1::before, .Item2::before, .Item3::before, .Item4::before, .Item5::before, .Item6::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.gg pre {
+    font-size: 30px;
+}
