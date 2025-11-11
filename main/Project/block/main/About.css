@@ -4,6 +4,10 @@
     color: var(--text-color);
 }
 
+.Sec1{
+    background-color: var(--primary-color);
+}
+
 .Image1 {
     height: 500px;
     position: relative;
